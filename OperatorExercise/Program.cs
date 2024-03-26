@@ -31,7 +31,7 @@
         }
        public static double AreaOfCircle(double radius)
         {
-            double answer = 3.141 * radius * radius;
+            double answer = Math.PI * Math.Pow(radius, 2);
 
             return answer;
 
