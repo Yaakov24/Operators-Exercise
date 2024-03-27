@@ -7,9 +7,9 @@
             int a = 17;
             int b = 4;
 
-            var sum = a += b;
+            var sum = a + b;
             Console.WriteLine(sum);
-            var sub = a -= b;
+            var sub = a - b;
             Console.WriteLine(sub);
             var mult = (a * b);
             Console.WriteLine(mult);
